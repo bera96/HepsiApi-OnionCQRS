@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\HepsiApi.Domain\HepsiApi.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
