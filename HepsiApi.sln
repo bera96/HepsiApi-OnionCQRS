@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{39617F1E-71E4-498E-85F3-309798A2E3E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{AAF9487D-3974-49D0-AD7D-3A52C87991D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{EBACBD3C-1160-4962-8C8B-ADE312233FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Application", "Core\HepsiApi.Application\HepsiApi.Application.csproj", "{219772E8-5759-4A71-90CF-81F22D0919B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Domain", "Core\HepsiApi.Domain\HepsiApi.Domain.csproj", "{589AFFF7-5685-4B24-AC5E-BB0AF0BE44B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Infrastructure", "Infrastructure\HepsiApi.Infrastructure\HepsiApi.Infrastructure.csproj", "{97B80056-69AB-4908-A31B-BB7DC2F6F5F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Persistance", "Infrastructure\HepsiApi.Persistance\HepsiApi.Persistance.csproj", "{552A356B-4C41-43CA-98EB-FA025420763E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Api", "Presentation\HepsiApi.Api\HepsiApi.Api.csproj", "{BB25445C-2DF5-4580-BCF7-211E40607B29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{219772E8-5759-4A71-90CF-81F22D0919B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219772E8-5759-4A71-90CF-81F22D0919B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219772E8-5759-4A71-90CF-81F22D0919B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219772E8-5759-4A71-90CF-81F22D0919B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{589AFFF7-5685-4B24-AC5E-BB0AF0BE44B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589AFFF7-5685-4B24-AC5E-BB0AF0BE44B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589AFFF7-5685-4B24-AC5E-BB0AF0BE44B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589AFFF7-5685-4B24-AC5E-BB0AF0BE44B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B80056-69AB-4908-A31B-BB7DC2F6F5F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B80056-69AB-4908-A31B-BB7DC2F6F5F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B80056-69AB-4908-A31B-BB7DC2F6F5F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B80056-69AB-4908-A31B-BB7DC2F6F5F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{552A356B-4C41-43CA-98EB-FA025420763E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{552A356B-4C41-43CA-98EB-FA025420763E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{552A356B-4C41-43CA-98EB-FA025420763E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{552A356B-4C41-43CA-98EB-FA025420763E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB25445C-2DF5-4580-BCF7-211E40607B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB25445C-2DF5-4580-BCF7-211E40607B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB25445C-2DF5-4580-BCF7-211E40607B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB25445C-2DF5-4580-BCF7-211E40607B29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{219772E8-5759-4A71-90CF-81F22D0919B9} = {39617F1E-71E4-498E-85F3-309798A2E3E7}
+		{589AFFF7-5685-4B24-AC5E-BB0AF0BE44B6} = {39617F1E-71E4-498E-85F3-309798A2E3E7}
+		{97B80056-69AB-4908-A31B-BB7DC2F6F5F5} = {EBACBD3C-1160-4962-8C8B-ADE312233FB2}
+		{552A356B-4C41-43CA-98EB-FA025420763E} = {EBACBD3C-1160-4962-8C8B-ADE312233FB2}
+		{BB25445C-2DF5-4580-BCF7-211E40607B29} = {AAF9487D-3974-49D0-AD7D-3A52C87991D1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE98F4F3-CF1A-42F3-A34B-799BEEAF7C90}
+	EndGlobalSection
+EndGlobal
